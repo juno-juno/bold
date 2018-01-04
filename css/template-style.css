@@ -1,0 +1,72 @@
+#first-block {
+text-align:center;
+padding:3.5em 0;
+}
+footer {
+    margin-top: -6px;    
+    background:#324927;
+    padding:3.5em 0;
+}
+
+/* sticky footer css */
+html {
+height: 100%;
+overflow: hidden;
+}
+ 
+body {
+height: 100%;
+overflow: scroll;
+}
+
+input {
+    background-color: #576b49;
+    border: 1px solid #576b49;
+    color:#b5cb2c; 
+    border-radius: 3px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    padding: 11px 20px 12px;
+    width: 300px;
+    font-family:"Open Sans",Arial,sans-serif;
+
+}
+
+.submit-button{background: #b5cb2c;border:1px solid #b5cb2c;margin-top:10px;color:#324927}
+
+
+#Message {
+    background-color: #576b49;
+    border: 1px solid #576b49;
+    color:#b5cb2c; 
+    border-radius: 3px;
+    font-size: 16px;
+    margin: 2px;
+    padding: 10px 0 0 20px;
+    width: 300px;
+    font-family:"Open Sans",Arial,sans-serif;
+
+}
+
+h3{color:#fff;padding-right:10px;}
+.with-sticky-footer {
+display: table;
+height: 100%;
+table-layout: fixed;
+width: 100%; 
+}
+ 
+.sticky-footer {
+display: table-row;
+height: 1px;
+color:#fff;
+} 
+
+.sticky-footer a{color:#b5cb2c !important}
+
+
+@media screen and (max-width: 768px) {
+  .right {
+  float:none;
+  }
+}
